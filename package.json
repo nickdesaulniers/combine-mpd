@@ -1,9 +1,9 @@
 {
   "name": "combine-mpd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combine MPEG DASH MPD manifest files",
   "bin": {
-    "combine-mpd": "bin.js"
+    "combine-mpd": "bin/bin.js"
   },
   "directories": {
     "example": "examples"
