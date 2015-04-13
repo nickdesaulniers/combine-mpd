@@ -9,7 +9,7 @@ function log (msg) {
 };
 
 if (process.argv.length < 4) {
-  console.error('usage: node test.js input.mpd output.mpd');
+  console.error('usage: node test.js input.mpd [input2.mpd input3.mpd ...] output.mpd');
   process.exit(1);
 }
 
@@ -81,30 +81,3 @@ Promise.all(parsedXML).then(combineXML).then(writeXML).then(function () {
   console.log('done');
 });
 
-//.then(function (value) {
-  //console.log(value);
-//});
-
-//a.then(function (result) {
-  //console.log(result);
-//});
-
-//console.log('a: ', a);
-
-//fs.readFile(process.argv[2], function (err, data) {
-  //if (err) throw err;
-
-  //parser.parseString(data, function (err, result) {
-    //if (err) throw err;
-
-    ////log(result);
-    //log(result.MPD.Period);
-
-    //var builder = new xml2js.Builder();
-    //var xml = builder.buildObject(result);
-
-    //fs.writeFile(process.argv[3], xml + '\n', function (err) {
-      //if (err) throw err;
-    //});
-  //});
-//});
