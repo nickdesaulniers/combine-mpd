@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var util = require('util');
 var xml2js = require('xml2js');
 var fsp = require('fs-promise');
