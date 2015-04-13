@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:DASH:schema:MPD:2011" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011" type="static" mediaPresentationDuration="PT888.035S" minBufferTime="PT1S" profiles="urn:webm:dash:profile:webm-on-demand:2012">
+  <Period id="0" start="PT0S" duration="PT888.035S">
+    <AdaptationSet id="0" mimeType="video/webm" codecs="vp8" lang="eng" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation id="0" bandwidth="10921277" width="3840" height="1636">
+        <BaseURL>v-2160p-17000k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="522482824-522489009">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="1" bandwidth="5250153" width="2560" height="1090">
+        <BaseURL>v-1440p-9000k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="251646195-251652359">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="12041076" width="1920" height="818">
+        <BaseURL>v-1080p-4500k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="500259829-500266021">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="8336280" width="1280" height="546">
+        <BaseURL>v-0720p-2500k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="277956894-277963078">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="4317393" width="1024" height="436">
+        <BaseURL>v-0576p-1400k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="155874975-155881142">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="5" bandwidth="2857492" width="854" height="364">
+        <BaseURL>v-0480p-1000k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="111491612-111497768">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="6" bandwidth="2125701" width="640" height="272">
+        <BaseURL>v-0360p-0750k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="83424467-83430609">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="7" bandwidth="1024531" width="426" height="182">
+        <BaseURL>v-0240p-0400k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="44489615-44495706">
+          <Initialization range="0-439"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="8" bandwidth="243618" width="256" height="110">
+        <BaseURL>v-0144p-0100k-vp8.webm</BaseURL>
+        <SegmentBase indexRange="11210403-11216308">
+          <Initialization range="0-439"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" mimeType="video/webm" codecs="vp9" lang="eng" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation id="9" bandwidth="15671952" width="3840" height="1636">
+        <BaseURL>v-2160p-14000k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="895956724-895962920">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="10" bandwidth="8776531" width="2560" height="1090">
+        <BaseURL>v-1440p-7500k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="519271244-519277438">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="11" bandwidth="3761651" width="1920" height="818">
+        <BaseURL>v-1080p-3300k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="239408257-239414426">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="12" bandwidth="1995124" width="1280" height="546">
+        <BaseURL>v-0720p-1800k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="131502501-131508655">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="13" bandwidth="1211632" width="1024" height="436">
+        <BaseURL>v-0576p-1000k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="79936650-79942785">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="14" bandwidth="900657" width="854" height="364">
+        <BaseURL>v-0480p-0750k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="60267280-60273396">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="15" bandwidth="633119" width="640" height="272">
+        <BaseURL>v-0360p-0550k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="43806257-43812346">
+          <Initialization range="0-441"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="16" bandwidth="338251" width="426" height="182">
+        <BaseURL>v-0240p-0300k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="23890654-23896641">
+          <Initialization range="0-439"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="17" bandwidth="132500" width="256" height="110">
+        <BaseURL>v-0144p-0100k-vp9.webm</BaseURL>
+        <SegmentBase indexRange="9646496-9652401">
+          <Initialization range="0-439"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="2" mimeType="audio/webm" codecs="vorbis" lang="eng" audioSamplingRate="48000" bitstreamSwitching="false" subsegmentAlignment="false" subsegmentStartsWithSAP="1">
+      <Representation id="18" bandwidth="321103">
+        <BaseURL>a-eng-0320k-libvorbis.webm</BaseURL>
+        <SegmentBase indexRange="31122515-31126154">
+          <Initialization range="0-4487"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="19" bandwidth="121029">
+        <BaseURL>a-eng-0128k-libvorbis.webm</BaseURL>
+        <SegmentBase indexRange="12252779-12256334">
+          <Initialization range="0-4719"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
