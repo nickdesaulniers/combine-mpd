@@ -11,7 +11,7 @@ function log (msg) {
 };
 
 if (process.argv.length < 4) {
-  console.error('usage: node test.js input.mpd [input2.mpd input3.mpd ...] output.mpd');
+  console.error('usage: combine-mpd input.mpd [input2.mpd input3.mpd ...] output.mpd');
   process.exit(1);
 }
 
