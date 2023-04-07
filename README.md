@@ -1,4 +1,4 @@
-#combine-mpd
+# combine-mpd
 A command line tool to combine your MPD (media presentation description) manifest files used for MPEG DASH.
 
 ```
